@@ -193,15 +193,64 @@ body{
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
 
-/*Despedida*/
-.despedida-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.despedida-container .corazon-rojo{
-    width: 10rem;
-}
-
 /*Responsive*/
+@media (max-width: 780px){
+    body{
+        align-items: flex-start;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .container{
+        width: 100%;
+        min-height: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: none;
+    }
+
+    .container h1{
+        font-size: 2rem;
+    }
+
+    .container h2,
+    .info-container p,
+    .de-container p,
+    .para-container p{
+        font-size: 1.1rem;
+    }
+
+    .btns a{
+        width: 50%;
+    }
+
+    .img-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: auto;
+    }
+
+    .img-container figure{
+        width: 45%;
+        min-width: 140px;
+        margin: 0;
+    }
+
+    .img-container img{
+        width: 100%;
+        height: auto;
+    }
+
+    .videos-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .videos-container video{
+        width: 100%;
+        max-width: 100%;
+    }
+}
