@@ -24,6 +24,7 @@
 }
 
 *{
+    box-sizing: border-box;
     font-family: "Love Ya Like A Sister", cursive;
     margin: 0;
     padding: 0;
@@ -252,5 +253,8 @@ body{
     .videos-container video{
         width: 100%;
         max-width: 100%;
+    }
+    .container header h1{
+        font-size: 1.9rem;
     }
 }
