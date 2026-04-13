@@ -257,5 +257,6 @@ body{
     }
     .container header h1{
         font-size: 1.6rem;
+        text-align: center;
     }
 }
